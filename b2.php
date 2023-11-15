@@ -1,5 +1,5 @@
 <?php
-function isPrime($number) {
+function Ktrasnt($number) {
     if ($number <= 1) {
         return false;
     }
@@ -15,7 +15,7 @@ function isPrime($number) {
 
 $number = 21; // Thay đổi số tại đây để kiểm tra
 
-if (isPrime($number)) {
+if (Ktrasnt($number)) {
     echo "$number là số nguyên tố.";
 } else {
     echo "$number không là số nguyên tố.";
